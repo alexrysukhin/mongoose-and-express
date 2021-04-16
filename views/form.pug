@@ -1,0 +1,12 @@
+extend layout 
+
+block title 
+	<title>Form</title>
+
+block content
+	form(action="post")
+		input(type="text" name="name" placeholder = "name")
+		input(type="number" name="age" placeholder = "age")
+		.submit-block
+			input(id="submit" type="submit" value="Отправить")
+			input(id="delete" type="submit" value="Удалить")

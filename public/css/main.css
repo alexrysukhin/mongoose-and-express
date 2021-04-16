@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: rgb(214, 124, 124);
+}
+nav{
+	margin: 40px;
+}
+.title{
+	margin-left: 30px;
+	text-transform: uppercase;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.content{
+	width: 90%;
+	padding-top:50px;
+	margin: 0 auto;
+}
+a{
+	text-decoration:none;
+	margin: 0px 10px;
+}
+
+form{
+	width: 300px;
+	text-align: right;
+}
+input{
+	margin-top: 10px;
+}

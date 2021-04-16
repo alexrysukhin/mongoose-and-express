@@ -1,0 +1,17 @@
+extend layout 
+
+block title 
+	<title>Users</title>
+
+
+block content 
+	if availabilityOfUsers
+		h2 Список всех пользователей
+		ul 
+			each user of users 
+				li #{`${user.name} - ${user.age}`}
+	else 	
+		h2 Список пуст
+			ul 
+				each user of users 
+					li #{user}
